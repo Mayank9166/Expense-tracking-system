@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding:0;
+  /* box-sizing: border-box; */
+}
+.content{
+   height: 100vh; 
+ 
+}
+.register-page,.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+}
+
+/* Transection Page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px 20px;
+  box-shadow: 0 0 13px grey;
+}
+
+/* Ant Icons */
+.switch-icons{
+  border: 1px solid rgba(0,0,0,0.677);
+  border-radius: 5px;
+   padding: 10px 15px;
+}
+
+.anticon svg{
+   font-size: 20px;
+   cursor: pointer;
+}
+.active-icon{
+  color: black;
+}
+
+.inactive-icon{
+  color: gray;
+}
